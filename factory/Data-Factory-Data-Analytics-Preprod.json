@@ -1,0 +1,9 @@
+{
+	"name": "Data-Factory-Data-Analytics-Preprod",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "da6000d6-9ccf-43f6-bc39-314d081e03f8",
+		"tenantId": "e8695001-811b-4992-8959-7ebe939176ec"
+	}
+}

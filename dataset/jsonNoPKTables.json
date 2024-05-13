@@ -1,0 +1,20 @@
+{
+	"name": "jsonNoPKTables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_adls_sa_name",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "NoPKTableList.json",
+				"fileSystem": "facts-conf"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
